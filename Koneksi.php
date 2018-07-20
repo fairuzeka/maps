@@ -14,3 +14,5 @@ $dsn = "mysql:host=$host;dbname=$db";
 	}catch (PDOException $e){
 		echo $e->getmessage();
 	}
+
+?>
